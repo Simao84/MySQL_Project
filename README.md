@@ -74,8 +74,10 @@ This project will cover four main aspect of database system implementation:
      ![image](https://github.com/user-attachments/assets/f7936fc8-8534-4ac7-a939-bbca6751c93a)
      
   
-5. SQL query: We are going to create views to allow the clients to run queries to answer business questions formulated above.
-6. Performance:
+5. SQL query
+We are going to create views to allow the clients to run queries to answer business questions formulated above.
+
+7. Performance
 After running the query before and after adding the primary/foreign keys and the search index, it was evident in the figure below that the transition from full table scans to indexed searches drastically reduced query cost, rows examined, and execution time. The execution time decreased from 0.0494 seconds to 0.0045 seconds with better index utilization. The number of rows examined reduced from 38,160 to 295 rows. The query cost significantly lowered from 28,339.654 to 103.45, reflecting a more efficient query execution.
    
 ![image](https://github.com/user-attachments/assets/ba6deec0-6ff6-44fe-86d9-b4954ce08159)
