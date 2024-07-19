@@ -76,7 +76,7 @@ This project will cover four main aspect of database system implementation:
   
 3. SQL Query
    
-We are going to create views to allow the clients to run queries to answer business questions formulated above.
+We are going to create views to allow the clients to run queries to answer business questions formulated above, and reuse the queries multiple times.
 
 4. Performance
    
